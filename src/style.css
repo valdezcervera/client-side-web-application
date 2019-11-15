@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.has-text-centered {
+    justify-content: center;
+}
+.column {
+    flex-direction: row;
+    width: 50%;
+}
+.icon {
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+}
+.octicon-star{
+    display: flex;
+    justify-content: space-between;
+}
+.underline {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+}
+h2, h3, h4 {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+}

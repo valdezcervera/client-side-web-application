@@ -26,7 +26,6 @@ const GetUser = async (name) => {
   // create a new div element 
   const newDiv = document.createElement("div");
   // add the newly created element and its content into the DOM 
-  const githubIcon = document.getElementById("icon");
   const currentDiv = document.getElementById("container");
   newDiv.innerHTML = Main.render();
   currentDiv.append(newDiv);

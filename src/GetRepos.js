@@ -5,7 +5,6 @@ const GetRepos = async (userName) => {
   const repos = await getData(reposURL)
   const Repos = {
     render: () => {
-      let item = {}
       const view =  /*html*/`
       <div class="content">
         <ul>
